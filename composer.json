@@ -14,7 +14,10 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.3|^8.0",
+        "illuminate/bus": "^8.0",
+        "illuminate/collections": "^8.0",
+        "illuminate/macroable": "^8.0",
         "lumphp/laravel-container": "^7.0",
         "lumphp/laravel-contracts": "^7.0",
         "lumphp/laravel-support": "^7.0"
@@ -26,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "7.x-dev"
+            "dev-master": "8.x-dev"
         }
     },
     "config": {
