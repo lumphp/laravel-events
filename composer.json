@@ -16,7 +16,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "illuminate/bus": "^8.0",
-        "illuminate/collections": "^8.0",
+        "lumphp/laravel-collections": "^8.0",
         "illuminate/macroable": "^8.0",
         "lumphp/laravel-container": "^7.0",
         "lumphp/laravel-contracts": "^7.0",
