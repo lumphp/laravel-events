@@ -15,17 +15,20 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/bus": "^8.0",
+        "lumphp/laravel-bus": "^8.0",
         "lumphp/laravel-collections": "^8.0",
-        "illuminate/macroable": "^8.0",
-        "lumphp/laravel-container": "^7.0",
-        "lumphp/laravel-contracts": "^7.0",
-        "lumphp/laravel-support": "^7.0"
+        "lumphp/laravel-container": "^8.0",
+        "lumphp/laravel-contracts": "^8.0",
+        "lumphp/laravel-macroable": "^8.0",
+        "lumphp/laravel-support": "^8.0"
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Events\\": "src/"
-        }
+            "Illuminate\\Events\\": ""
+        },
+        "files": [
+            "functions.php"
+        ]
     },
     "extra": {
         "branch-alias": {
