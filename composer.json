@@ -27,7 +27,7 @@
             "Illuminate\\Events\\": ""
         },
         "files": [
-            "functions.php"
+            "src/functions.php"
         ]
     },
     "extra": {
