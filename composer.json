@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Events\\": ""
+            "Illuminate\\Events\\": "src/"
         },
         "files": [
             "src/functions.php"
